@@ -1,6 +1,6 @@
-git init
-git add .
-git commit -m "Initial commit: Chrome extension Facebook/LinkedIn scraper"
-git branch -M main
-git remote add origin https://github.com/cons-cloud/facebook-linkedin-scraper.git
-git push -u origin main
+# Ignore les fichiers temporaires et systèmes
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+*.zip 
